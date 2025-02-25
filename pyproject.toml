@@ -7,7 +7,15 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+osmnx = "^2.0.1"
+shapely = "^2.0.7"
 
+
+[tool.poetry.group.dev.dependencies]
+ipywidgets = "^8.1.5"
+black = "^25.1.0"
+flake8 = "^7.1.2"
+ipykernel = "^6.29.5"
 
 [build-system]
 requires = ["poetry-core"]
